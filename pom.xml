@@ -124,6 +124,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- JSON Web Token, ou JWT, é um padrão utilizado para a geração de tokens -->
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>4.2.1</version>
+        </dependency>
+
 	</dependencies>
 
 	<build>
